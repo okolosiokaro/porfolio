@@ -1,20 +1,24 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
-import Analytics from "./components/Analytics";
-import Newsletter from "./components/Newsletter";
-import Cards from "./components/Cards";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Project from "./components/project";
+import Contact from './components/Contact';
 import Footer from "./components/Footer";
+import Skill from "./components/Skill";
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="relative">
     <NavBar /> 
     <Hero />
-    <Analytics />
-    <Newsletter />
-    <Cards />
+    <About />
+    <Experience />
+    <Skill />
+    <Project />
+    <Contact />
     <Footer />
     </div>
   );

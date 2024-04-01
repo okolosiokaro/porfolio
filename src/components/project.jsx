@@ -3,7 +3,7 @@ import single from '../assets/single.png'
 import double from '../assets/double.png'
 import triple from '../assets/triple.png'
 
-const Cards = () => {
+const Project = () => {
   return (
     <div className='w-full py-[10rem] px-4 bg-white'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
@@ -46,4 +46,4 @@ const Cards = () => {
   )
 }
 
-export default Cards
+export default Project
