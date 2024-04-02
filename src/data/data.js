@@ -22,36 +22,30 @@ const Projects = [
 const Frontends = [
     {
         icon: <AiFillHtml5 size={30} className='mt-1'/>,
-        tool: 'HTML',
-        level: 'Experienced'
+        tool: 'HTML'
     },
     {
         icon: <FaCss3 size={30} className='mt-1'/>,
-        tool: 'CSS | Tailwind Css',
-        level: 'Experienced'
+        tool: 'CSS | Tailwind Css'
     },
     {
         icon: <FaJs size={30} className='mt-1'/>,
-        tool: 'JavaScript',
-        level: 'Intermediate'
+        tool: 'JavaScript'
     },
     {
         icon: <FaReact size={30} className='mt-1'/>,
-        tool: 'React',
-        level: 'Intermediate'
+        tool: 'React'
     }
 ];
 
 const Backends = [
     {
         icon: <FaNodeJs size={30} className='mt-1'/>,
-        tool: 'Node Js',
-        level: 'Intermediate'
+        tool: 'Node Js'
     },
     {
         icon: <FaGit size={30} className='mt-1'/>,
-        tool: 'Git',
-        level: 'Intermediate'
+        tool: 'Git'
     }
 ] 
 
