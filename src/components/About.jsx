@@ -31,9 +31,9 @@ const About = () => {
                         <div className="py-2"><h6>Freelance: <span className="font-bold">Available</span></h6></div>
                     
                     </div>
-                    <div className='flex'>
-                    <button className='bg-blue-500 w-[200px] rounded-md font-medium my-6 px-6 py-3 text-white text-bold hover:bg-blue-700 mr-2'>Hire Me</button>
-                    <button className=' w-[200px] rounded-md font-medium my-6 px-6 py-3 text-blue-700 text-bold hover:bg-blue-700 hover:text-white'>Download CV</button>
+                    <div className='md:flex'>
+                    <button className='bg-blue-500 w-[200px] rounded-md font-medium my-2 md:my-6 px-6 py-3 text-white text-bold hover:bg-blue-700 mr-2'>Hire Me</button>
+                    <button className=' w-[200px] rounded-md font-medium my-2 md:my-6 px-6 py-3 text-blue-700 text-bold hover:bg-blue-700 hover:text-white'>Download CV</button>
                     </div>
 
                 </div>
