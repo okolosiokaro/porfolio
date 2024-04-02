@@ -11,7 +11,7 @@ import Skill from "./components/Skill";
 
 function App() {
   return (
-    <div className="relative">
+    <div className="">
     <NavBar /> 
     <Hero />
     <About />
