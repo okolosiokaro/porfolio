@@ -8,7 +8,7 @@ const Experience = () => {
         <div className='grid md:grid-cols-2'>
             <div className="">
                     <div className='flex flex-start gap-2'>
-                    <FaGraduationCap size={30} className='mt-1'/>
+                    <FaGraduationCap size={30} className=''/>
                       <h3 className=" font-bold mb-4 text-2xl">Education</h3>
                     </div>
                     <div className="border-l border-blue-500 pt-2 pl-4 ml-2">
@@ -21,7 +21,7 @@ const Experience = () => {
             </div>
             <div className="">
                    <div className='flex gap-2'>
-                   <FaBriefcase size={20} className='mt-2'/>
+                   <FaBriefcase size={25} className='mt-1'/>
                       <h3 className=" font-bold mb-4 text-2xl">Experience</h3>
                     </div>
                     <div className="border-l border-blue-500 pt-2 pl-4 ml-2">

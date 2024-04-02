@@ -11,7 +11,7 @@ const About = () => {
           <img className='w-3/4 lg:w-1/2 rounded-full mx-auto' src={pic2} alt="personalPic"/>
           <div className='flex flex-col justify-center'> 
                     <div className='flex gap-2 mb-6'>
-                        <AiFillProfile size={20} className='mt-2'/>
+                        <AiFillProfile size={20} className='mt-1 md:mt-2'/>
                          <div>
                          <h3 className=" font-bold mb-4 text-2xl">Personal Information</h3>
                          <p>Frontend Developer</p>
@@ -22,7 +22,7 @@ const About = () => {
                       
                         <div className="py-2"><h6>Name: <span className="font-bold ">Okolosio Oghenekaro Elvis</span></h6></div>
                         <div className="py-2"><h6>Birthday: <span className="font-bold">9 July 1994</span></h6></div>
-                        <div className="py-2"><h6>Address: <span className="font-bold">49, Vaughan Str, Lagos NG</span></h6></div>
+                        <div className="py-2"><h6>Address: <span className="font-bold">49, Vaughan St, Lagos NG</span></h6></div>
                         <div className="py-2"><h6>Phone: <span className="font-bold">+234 705 0754 245</span></h6></div>
 
                         <div className="py-2"><h6>Email: <span className="font-bold">okolosiokaro@gmail.com</span></h6></div>
@@ -33,7 +33,7 @@ const About = () => {
                     </div>
                     <div className='md:flex'>
                     <button className='bg-blue-500 w-[200px] rounded-md font-medium my-2 md:my-6 px-6 py-3 text-white text-bold hover:bg-blue-700 mr-2'>Hire Me</button>
-                    <button className=' w-[200px] rounded-md font-medium my-2 md:my-6 px-6 py-3 text-blue-700 text-bold hover:bg-blue-700 hover:text-white'>Download CV</button>
+                    <button className=' w-[200px] rounded-md font-medium my-2 md:my-6 px-6 py-3 text-blue-700 text-bold hover:bg-blue-700 hover:text-white'>Resume</button>
                     </div>
 
                 </div>

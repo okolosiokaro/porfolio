@@ -8,7 +8,7 @@ const Skill = () => {
       <div className='max-w-[1240px] mx-auto'>
       <div className='flex flex-col justify-center'> 
         <div className='flex gap-2 mb-6'>
-            <FaTools  size={20} className='mt-2 '/>
+            <FaTools  size={20} className='mt-1 '/>
             <div>
             <h3 className=" font-bold mb-4 text-2xl">Skills</h3>
             <p>Technologies and tools</p>
