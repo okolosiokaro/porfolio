@@ -21,10 +21,7 @@ const About = () => {
                     <div className="w-full p-2 grid md:grid-cols-2 bg-white border border-gray-200 rounded-lg shadow-md mb-3">
                       
                         <div className="py-2"><h6>Name: <span className="font-bold ">Okolosio Oghenekaro Elvis</span></h6></div>
-                        <div className="py-2"><h6>Birthday: <span className="font-bold">9 July 1994</span></h6></div>
-                        <div className="py-2"><h6>Address: <span className="font-bold">49, Vaughan St, Lagos NG</span></h6></div>
                         <div className="py-2"><h6>Phone: <span className="font-bold">+234 705 0754 245</span></h6></div>
-
                         <div className="py-2"><h6>Email: <span className="font-bold">okolosiokaro@gmail.com</span></h6></div>
                         <div className="py-2"><h6>Degree: <span className="font-bold">Bachelor of Engineering</span></h6></div>
                         <div className="py-2"><h6>Experience: <span className="font-bold">2 Years</span></h6></div>
