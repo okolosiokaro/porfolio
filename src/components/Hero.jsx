@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
   return (
-    <div className='w-full bg-gray-50  px-2'>
+    <div className='w-full bg-gray-50  px-2 md:px-4'>
         <div className='max-w-[1240px] mt-[-96px] h-screen mx-auto text-start flex flex-col justify-center'>
        <p className="text-blue-500 font-bold py-2">Hi my name is</p>
        <h1 className="lg:text-7xl md:text-5xl text-3xl font-bold md:py-4">OKOLOSIO, Oghenekaro Elvis</h1>

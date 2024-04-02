@@ -7,8 +7,8 @@ const About = () => {
   return (
     <div className='w-full bg-white py-16 px-4'>
       <div className='max-w-[1240px] mx-auto'>
-        <div className='grid md:grid-cols-2 '>
-          <img className='w-2/4 rounded-full py-2 mx-auto' src={pic2} alt="personalPic"/>
+        <div className='grid lg:grid-cols-2 gap-4 '>
+          <img className='w-3/4 lg:w-1/2 rounded-full mx-auto' src={pic2} alt="personalPic"/>
           <div className='flex flex-col justify-center'> 
                     <div className='flex gap-2 mb-6'>
                         <AiFillProfile size={20} className='mt-2'/>
