@@ -19,12 +19,9 @@ const Skill = () => {
                     <h3 className=" font-bold mb-4">Frontend</h3>
                     <div className="grid grid-cols-2 pt-2 ml-2 gap-2">
                         {Frontends.map((Frontend) => (
-                            <article className='flex gap-2' key={Frontend.id}>
+                            <article className='flex py-2 gap-2' key={Frontend.id}>
                         {Frontend.icon}
-                        <div>
                             <h3 className='font-bold text-xl'>{Frontend.tool}</h3>
-                            <p>{Frontend.level}</p>
-                        </div>
                     </article>
                         ))}
                     
@@ -36,10 +33,7 @@ const Skill = () => {
                     {Backends.map((Backend) => (
                             <article className='flex gap-2' key={Backend.id}>
                         {Backend.icon}
-                        <div>
                             <h3 className='font-bold text-xl'>{Backend.tool}</h3>
-                            <p>{Backend.level}</p>
-                        </div>
                     </article>
                         ))}
                     </div>
