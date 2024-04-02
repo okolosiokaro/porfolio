@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import {AiFillProject, AiOutlineClose, AiFillContacts, AiOutlineMenu} from 'react-icons/ai'
+import { FaBriefcase, FaGraduationCap, FaHome } from 'react-icons/fa'
 
 const NavBar = () => {
 const [nav, setNav] = useState(false)
@@ -12,11 +13,11 @@ const handleNav = () => {
       <div className="flex justify-between  items-center h-24 max-w-[1240px] mx-auto px-4">
       <h1 className=" text-3xl font-bold text-blue-500">EO</h1>
       <ul className="hidden md:flex cursor-pointer">
-        <li className="p-4 flex items-center gap-2 hover:text-blue-700 hover:font-bold"><span><AiOutlineMenu size={20}/></span>Home</li>
-        <li className="p-4 flex items-center gap-2 hover:text-blue-700 hover:font-bold"><span><AiOutlineMenu size={20}/></span>Education</li>
-        <li className="p-4 flex items-center gap-2 hover:text-blue-700 hover:font-bold"><span><AiOutlineMenu size={20}/></span>Experience</li>
-        <li className="p-4 flex items-center gap-2 hover:text-blue-700 hover:font-bold"><span><AiOutlineMenu size={20}/></span>Projects</li>
-        <li className="p-4 flex items-center gap-2 hover:text-blue-700 hover:font-bold"><span><AiOutlineMenu size={20}/></span>Contact</li>
+        <li className="p-4 flex items-center gap-1 hover:text-blue-700 hover:font-bold"><span><FaHome size={20}/></span>Home</li>
+        <li className="p-4 flex items-center gap-1 hover:text-blue-700 hover:font-bold"><span><FaGraduationCap size={25}/></span>Education</li>
+        <li className="p-4 flex items-center gap-1 hover:text-blue-700 hover:font-bold"><span><FaBriefcase size={20}/></span>Experience</li>
+        <li className="p-4 flex items-center gap-1 hover:text-blue-700 hover:font-bold"><span><AiFillProject size={20}/></span>Projects</li>
+        <li className="p-4 flex items-center gap-1 hover:text-blue-700 hover:font-bold"><span><AiFillContacts size={20}/></span>Contact</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
       {nav ? <AiOutlineClose size={20} /> :  <AiOutlineMenu size={20}/> }
@@ -32,11 +33,11 @@ const handleNav = () => {
         </div>
         </div>
         <ul className="p-4">
-          <li className="p-4 flex items-center gap-2 border-b-2 border-black-700 hover:text-blue-500 hover:font-bold"><span><AiOutlineMenu size={20}/></span>Home</li>
-          <li className="p-4 flex items-center gap-2 border-b-2 border-black-700 hover:text-blue-500 hover:font-bold"><span><AiOutlineMenu size={20}/></span>Education</li>
-          <li className="p-4 flex items-center gap-2 border-b-2 border-black-700 hover:text-blue-500 hover:font-bold"><span><AiOutlineMenu size={20}/></span>Experience</li>
-          <li className="p-4 flex items-center gap-2 border-b-2 border-black-700 hover:text-blue-500 hover:font-bold"><span><AiOutlineMenu size={20}/></span>Projects</li>
-          <li className="p-4 flex items-center gap-2 hover:text-blue-700 hover:font-bold"><span><AiOutlineMenu size={20}/></span>Contact</li>
+          <li className="p-4 flex items-center gap-2 border-b-2 border-black-700 hover:text-blue-500 hover:font-bold"><span><FaHome size={20}/></span>Home</li>
+          <li className="p-4 flex items-center gap-2 border-b-2 border-black-700 hover:text-blue-500 hover:font-bold"><span><FaGraduationCap size={25}/></span>Education</li>
+          <li className="p-4 flex items-center gap-2 border-b-2 border-black-700 hover:text-blue-500 hover:font-bold"><span><FaBriefcase size={20}/></span>Experience</li>
+          <li className="p-4 flex items-center gap-2 border-b-2 border-black-700 hover:text-blue-500 hover:font-bold"><span><AiFillProject size={20}/></span>Projects</li>
+          <li className="p-4 flex items-center gap-2 hover:text-blue-700 hover:font-bold"><span><AiFillContacts size={20}/></span>Contact</li>
         </ul>
       </div>
       </div>

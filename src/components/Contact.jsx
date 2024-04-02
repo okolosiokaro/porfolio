@@ -1,14 +1,22 @@
 import React from 'react'
+import { AiFillContacts } from 'react-icons/ai'
 
 const Contact = () => {
   return (
     <div>
          <div className='w-full bg-white py-16 px-4'>
       <div className='max-w-[1240px] mx-auto'>
-        <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Contact</h1>
-        <p className=''>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, animi.</p>
+      <div className='flex gap-2 mb-6'>
+            <AiFillContacts  size={25} className='mt-1 '/>
+            <div>
+            <h3 className=" font-bold mb-4 text-2xl">Contact</h3>
+            <p>Get in touch via social media or fill the form below</p>
+            </div>
+        </div>
         <div className='grid md:grid-cols-2'>
-          <img className='w-[500px] mx-auto my-4' src='/' alt="/"/>
+          <div>
+            
+          </div>
           <div className='flex flex-col justify-center'> 
           <form >
               <div class="">
