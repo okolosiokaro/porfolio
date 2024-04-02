@@ -12,7 +12,7 @@ const Project = () => {
         </div>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
         {Projects.map((Project) => (
-                <div key={Project.id} className='w-full shadow-lg flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+                <div key={Project.id} className='w-full shadow-md flex flex-col p-4 my-4 border border-gray-200 rounded-lg hover:scale-105 duration-300'>
                 <img className='w-1/2 mx-auto' src='' alt="/"/>
                 <h2 className='text-xl font-bold text-center py-4'>{Project.title}</h2>
                 <p className='text-center'>{Project.description}</p>

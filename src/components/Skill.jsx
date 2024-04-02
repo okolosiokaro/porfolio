@@ -15,7 +15,7 @@ const Skill = () => {
             </div>
         </div>
         <div className='grid md:grid-cols-2 gap-2'>
-            <div className="bg-gray-50 rounded-lg shadow-md p-2">
+            <div className="border border-gray-200 rounded-lg shadow-md p-2">
                     <h3 className=" font-bold mb-4">Frontend</h3>
                     <div className="grid grid-cols-2 pt-2 ml-2 gap-2">
                         {Frontends.map((Frontend) => (
@@ -30,7 +30,7 @@ const Skill = () => {
                     
                     </div>
             </div>
-            <div className="bg-gray-50 rounded-lg shadow-md p-2">
+            <div className="border border-gray-200 rounded-lg shadow-md p-2">
                     <h3 className=" font-bold mb-4">Backend</h3>
                     <div className="grid grid-cols-2 gap-2 pt-2 ml-2">
                     {Backends.map((Backend) => (

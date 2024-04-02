@@ -18,7 +18,7 @@ const About = () => {
                          </div>
                     </div>
                  
-                    <div className="w-full p-2 grid md:grid-cols-2 bg-gray-50 rounded-lg shadow-md mb-3">
+                    <div className="w-full p-2 grid md:grid-cols-2 bg-white border border-gray-200 rounded-lg shadow-md mb-3">
                       
                         <div className="py-2"><h6>Name: <span className="font-bold ">Okolosio Oghenekaro Elvis</span></h6></div>
                         <div className="py-2"><h6>Birthday: <span className="font-bold">9 July 1994</span></h6></div>
