@@ -24,7 +24,7 @@ const handleNav = () => {
       </div>
 
   
-      <div  className={nav ? "fixed left-0 top-0 w-full h-full bg-black/50" : "fixed -left-full " }>
+      <div onClick={handleNav}  className={nav ? "fixed left-0 top-0 w-full h-full bg-black/50" : "fixed -left-full " }>
       <div className={nav ? "fixed left-0 top-0 w-[60%] h-full border-r-gray-900 bg-white ease-in-out duration-500 rounded-r-xl" : "fixed -left-full " }>
         <div className="flex justify-between items-center ">
         <h1 className="w-full text-3xl font-bold m-4">Elvis</h1>

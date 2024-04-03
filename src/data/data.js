@@ -6,17 +6,20 @@ const Projects = [
     {
         title: 'Logistics Company Limited',
         description: 'just some text to describe the project briefly',
-        image: ''
+        image: '',
+        link: 'https://www.logisticscompany.netlify.app'
     },
 {
     title: 'Niketest website',
     description: 'just some text to describe the project briefly',
-    image: ''
+    image: '',
+    link: 'https://www.niketest.netlify.app'
 },
 {
     title: 'Buyeat website',
     description: 'just some text to describe the project briefly',
-    image: ''
+    image: '',
+    link: 'https://www.buyeat.netlify.app'
 }];
 
 const Frontends = [
