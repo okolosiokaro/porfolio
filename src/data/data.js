@@ -1,24 +1,27 @@
 import { AiFillHtml5 } from 'react-icons/ai'
 import { FaCss3, FaGit, FaJs, FaNodeJs, FaReact} from 'react-icons/fa'
+import logistics from '../assets/logistics (1).png'
+import food from '../assets/food.png'
+import nike from '../assets/nike.png'
 
 
 const Projects = [
     {
         title: 'Logistics Company Limited',
         description: 'just some text to describe the project briefly',
-        image: '',
+        image: logistics,
         link: 'https://logisticscompany.netlify.app/'
     },
 {
     title: 'Niketest website',
     description: 'just some text to describe the project briefly',
-    image: '',
+    image: nike,
     link: 'https://nikestest.netlify.app'
 },
 {
     title: 'Buyeat website',
     description: 'just some text to describe the project briefly',
-    image: '',
+    image: food,
     link: 'https://buyeat.netlify.app'
 }];
 
