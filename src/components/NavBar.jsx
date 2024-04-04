@@ -9,7 +9,7 @@ const handleNav = () => {
     setNav(!nav)
 }
   return (
-    <div className='w-full'>
+    <div className='z-50 bg-gray-100/50 sticky top-0 w-full'>
       <div className="flex justify-between  items-center h-24 max-w-[1240px] mx-auto px-4">
       <h1 className=" text-3xl font-bold">Elvis</h1>
       <ul className="hidden md:flex cursor-pointer">
