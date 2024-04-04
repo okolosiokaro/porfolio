@@ -5,7 +5,7 @@ import { AiFillProfile } from 'react-icons/ai'
 
 const About = () => {
   return (
-    <div className='w-full bg-white py-16 px-4'>
+    <div id='about' className='w-full bg-white py-16 px-4'>
       <div className='max-w-[1240px] mx-auto'>
         <div className='grid lg:grid-cols-2 gap-4 '>
           <img className='w-3/4 lg:w-1/2 rounded-full mx-auto' src={pic2} alt="personalPic"/>

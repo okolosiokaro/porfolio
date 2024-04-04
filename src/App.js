@@ -11,6 +11,7 @@ import Built from "./components/Built";
 
 function App() {
   return (
+    
     <div className="">
     <NavBar /> 
     <Hero />

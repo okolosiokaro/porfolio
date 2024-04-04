@@ -3,7 +3,7 @@ import { FaGraduationCap, FaBriefcase } from 'react-icons/fa'
 
 const Experience = () => {
   return (
-    <div className='w-full bg-white py-16 px-4'>
+    <div className='w-full bg-white py-16 px-4'  id='experience'>
       <div className='max-w-[1240px] mx-auto'>
         <div className='grid md:grid-cols-2'>
             <div className="">

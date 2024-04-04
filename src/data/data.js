@@ -10,19 +10,22 @@ const Projects = [
         title: 'Logistics Company Limited',
         description: 'just some text to describe the project briefly',
         image: logistics,
-        link: 'https://logisticscompany.netlify.app/'
+        link: 'https://logisticscompany.netlify.app/',
+        repo: 'https://www.github.com/okolosiokaro/logistics'
     },
 {
     title: 'Niketest website',
     description: 'just some text to describe the project briefly',
     image: nike,
-    link: 'https://nikestest.netlify.app'
+    link: 'https://nikestest.netlify.app',
+    repo: 'https://www.github.com/okolosiokaro/nikestest'
 },
 {
     title: 'Buyeat website',
     description: 'just some text to describe the project briefly',
     image: food,
-    link: 'https://buyeat.netlify.app'
+    link: 'https://buyeat.netlify.app',
+    repo: 'https://www.github.com/okolosiokaro/foodweb'
 }];
 
 const Frontends = [

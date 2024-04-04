@@ -11,7 +11,7 @@ import {
 
 const Contact = () => {
   return (
-         <div className='w-full bg-white py-16 px-4'>
+         <div id='contact' className='w-full bg-white py-16 px-4'>
       <div className='max-w-[500px]  mx-auto'>
       <div className='flex gap-2 mb-6 '>
         <AiFillContacts  size={25} className='mt-1 '/>

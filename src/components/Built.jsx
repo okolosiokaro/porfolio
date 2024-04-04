@@ -6,7 +6,7 @@ const Built = () => {
 
   return (
     <div>
-    <div className='w-full py-[10rem] px-4'>
+    <div  id='project' className='w-full py-[10rem] px-4'>
         <div className='max-w-[1240px] mx-auto '>
         <div className='flex gap-2 mb-6'>
             <AiFillProject  size={25} className='mt-1 '/>
@@ -22,7 +22,7 @@ const Built = () => {
                 <p className='text-center'>{Project.description}</p>
                 <div className='flex flex-row justify-center text-center font-medium mx-auto'>
                 <a className='bg-blue-500 rounded-md font-medium my-2 md:my-6 px-6 py-3 text-white text-bold hover:bg-blue-700 mr-2' href={Project.link}>Demo</a>
-                    <a className=' rounded-md font-medium my-2 md:my-6 px-6 py-3 text-blue-700 text-bold hover:bg-blue-700 hover:text-white' rel='Github Profile' href='https://www.github.com/okolosiokaro'>Github</a>
+                    <a className=' rounded-md font-medium my-2 md:my-6 px-6 py-3 text-blue-700 text-bold hover:bg-blue-700 hover:text-white' rel='Github Profile' href={Project.repo}>Github</a>
                 </div>
             </div>
           ))}

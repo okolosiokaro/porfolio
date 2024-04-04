@@ -4,7 +4,7 @@ import { Backends, Frontends } from '../data/data'
 
 const Skill = () => {
   return (
-     <div className='w-full bg-white py-16 px-4'>
+     <div id='skill' className='w-full bg-white py-16 px-4'>
       <div className='max-w-[1240px] mx-auto'>
       <div className='flex flex-col justify-center'> 
         <div className='flex gap-2 mb-6'>
