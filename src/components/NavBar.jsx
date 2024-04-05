@@ -7,7 +7,11 @@ const [nav, setNav] = useState(false)
 
 const handleNav = () => {
     setNav(!nav)
+   
 }
+
+nav?  document.body.classList.add('overflow-hidden') :  document.body.classList.remove('overflow-hidden')
+
   return (
     <div className='z-50 bg-gray-100/50 sticky top-0 w-full'>
       <div className="flex justify-between  items-center h-24 max-w-[1240px] mx-auto px-4">
@@ -24,8 +28,8 @@ const handleNav = () => {
       </div>
 
   
-      <div onClick={handleNav}  className={nav ? "z-50 fixed left-0 top-0 w-full h-full bg-black/50" : "fixed -left-full " }>
-      <div className={nav ? "fixed left-0 top-0 w-[60%] h-full border-r-gray-900 bg-white ease-in-out duration-500 rounded-r-xl" : "fixed -left-full " }>
+      <div onClick={handleNav}  className={nav ? "z-40 fixed left-0 top-0 w-full h-full bg-black/50" : "fixed -left-full " }></div>
+      <div className={nav ? "z-50 fixed left-0 top-0 w-[60%] h-full bg-white ease-in-out duration-500 rounded-r-xl" : "fixed -left-full " }>
         <div className="flex justify-between items-center ">
         <h1 className="w-full text-3xl font-bold m-4">Elvis</h1>
         <div onClick={handleNav} className='p-4'>
@@ -41,7 +45,6 @@ const handleNav = () => {
         </ul>
       </div>
       </div>
-    </div>
     </div>
   
   )
