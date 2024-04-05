@@ -2,6 +2,13 @@ import React from 'react'
 import { ReactTyped } from "react-typed";
 
 const Hero = () => {
+  const downloadCv = () => {
+    const link = document.createElement('a');
+    link.href = '../assets/elvis.pdf';
+    link.download = 'elvis.pdf';
+    link.click();
+  }
+  
   return (
     <div id='home' className='w-full bg-gray-100 px-2 md:px-4'>
       <div className='max-w-[1240px] mt-[-96px] h-screen mx-auto text-center flex flex-col justify-center'>
@@ -18,7 +25,7 @@ const Hero = () => {
         />
        </div>
        <p className='lg:text-2xl text-lg font-bold text-blue-500'>Let's work on your projects</p>
-       <button className='mx-auto bg-blue-500 w-[200px] rounded-md font-medium my-6 px-6 py-3 text-white text-bold hover:bg-blue-700'>Resume</button>
+       <button className='mx-auto bg-blue-500 w-[200px] rounded-md font-medium my-6 px-6 py-3 text-white text-bold hover:bg-blue-700' onClick={downloadCv}>Resume</button>
       </div>
     </div>
 

@@ -7,6 +7,14 @@ const About = () => {
   const openMail = () => {
     window.location.href='mailto:okolosiokaro@gmail.com';
   }
+const downloadCv = () => {
+  const link = document.createElement('a');
+  link.href = '../assets/elvis.pdf';
+  link.download = 'elvis.pdf';
+  link.click();
+
+}
+
   return (
     <div id='about' className='w-full bg-white py-16 px-4'>
       <div className='max-w-[1240px] mx-auto'>
@@ -33,7 +41,7 @@ const About = () => {
                     </div>
                     <div className='md:flex'>
                     <button className='bg-blue-500 w-[200px] rounded-md font-medium my-2 md:my-6 px-6 py-3 text-white text-bold hover:bg-blue-700 mr-2' onClick={openMail}>Hire Me</button>
-                    <button className=' w-[200px] rounded-md font-medium my-2 md:my-6 px-6 py-3 text-blue-700 text-bold hover:bg-blue-700 hover:text-white'>Resume</button>
+                    <button className=' w-[200px] rounded-md font-medium my-2 md:my-6 px-6 py-3 text-blue-700 text-bold hover:bg-blue-700 hover:text-white' onClick={downloadCv}>Resume</button>
                     </div>
 
                 </div>
