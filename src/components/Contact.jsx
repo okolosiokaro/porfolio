@@ -21,12 +21,12 @@ const Contact = () => {
         </div>
         </div>
         <div className='flex justify-between  border border-gray-200 rounded-lg shadow-md p-4 cursor-pointer'>
-            <FaFacebookSquare size={30} className=' hover:text-blue-700'/>
-            <FaTwitterSquare size={30} className=' hover:text-blue-700'/>
-            <FaInstagram size={30} className=' hover:text-blue-700'/>
-            <FaWhatsappSquare size={30} className=' hover:text-blue-700'/>
-            <FaGithubSquare size={30} className=' hover:text-blue-700'/>
-            <FaLinkedin size={30} className=' hover:text-blue-700'/>
+            <a className=' hover:text-blue-700' href='https://www.facebook.com/profile.php?id=61550250171313&mibextid=ZbWKwL'><FaFacebookSquare size={30} /></a>
+            <a className=' hover:text-blue-700' href='https://twitter.com/ookolosio'><FaTwitterSquare size={30} /></a>
+            <a className=' hover:text-blue-700' href='https://www.instagram.com/ookolosio?igsh=Ymc4cG9mYTJvcjdu'><FaInstagram size={30} /></a>
+            <a className=' hover:text-blue-700' href='https://wa.me/message/QUMEL4KJMYKWF1'><FaWhatsappSquare size={30} /></a>
+            <a className=' hover:text-blue-700' href='https://github.com/okolosiokaro'><FaGithubSquare size={30} /></a>
+            <a className=' hover:text-blue-700' href='https://www.linkedin.com/in/oghenekaro-okolosio-359a70139'><FaLinkedin size={30} /></a>
           </div>
         </div>
       </div>
