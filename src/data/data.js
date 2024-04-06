@@ -26,7 +26,8 @@ const Projects = [
     image: food,
     link: 'https://buyeat.netlify.app',
     repo: 'https://www.github.com/okolosiokaro/foodweb'
-}];
+}
+];
 
 const Frontends = [
     {

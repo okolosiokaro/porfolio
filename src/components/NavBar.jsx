@@ -29,7 +29,7 @@ nav?  document.body.classList.add('overflow-hidden') :  document.body.classList.
 
   
       <div onClick={handleNav}  className={nav ? "z-40 fixed left-0 top-0 w-full h-full bg-black/50" : "fixed -left-full " }></div>
-      <div className={nav ? "z-50 fixed left-0 top-0 w-[60%] h-full bg-white ease-in-out duration-500 rounded-r-xl" : "fixed -left-full " }>
+      <div className={nav ? "z-50 fixed left-0 top-0 w-[60%] h-full bg-white ease-in-out duration-300 rounded-r-xl" : "fixed -left-full" }>
         <div className="flex justify-between items-center ">
         <h1 className="w-full text-3xl font-bold m-4">Elvis</h1>
         <div onClick={handleNav} className='p-4'>
