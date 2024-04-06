@@ -1,14 +1,22 @@
-import React, { useState } from 'react';
+// import React, { useEffect } from 'react';
 import {Projects} from '../data/data'
 
 const ScrollList = () => {
-    const [scrollPosition, setScrollPosition] = useState(0);
+    // useEffect(() => {
+    //     const container = document.getElementById('scrollContainer');
+    //     const handleScroll = () => {
+    //       // Your logic here if needed
+    //     };
+    //     container.addEventListener('scroll', handleScroll);
+    //     return () => {
+    //       container.removeEventListener('scroll', handleScroll);
+    //     };
+    //   }, []);
 
     const scrollToLeft = () => {
       const container = document.getElementById('scrollContainer');
       if (container) {
         container.scrollLeft -= 400; // Adjust the scroll speed as needed
-        setScrollPosition(container.scrollLeft);
       }
     };
   
@@ -16,7 +24,6 @@ const ScrollList = () => {
       const container = document.getElementById('scrollContainer');
       if (container) {
         container.scrollLeft += 400; // Adjust the scroll speed as needed
-        setScrollPosition(container.scrollLeft);
       }
     };
   
@@ -26,7 +33,7 @@ const ScrollList = () => {
       <button className="absolute left-0 top-1/2 bg-blue-400 hover:bg-blue-500 p-2 rounded-full z-10 text-white" onClick={scrollToLeft}>
         &lt;
       </button>
-      <div id="scrollContainer" className="flex overflow-x-auto" style={{ scrollBehavior: 'smooth' }}>
+      <div id="scrollContainer" className="flex overflow-x-auto" style={{ scrollBehavior: 'smooth', WebkitOverflowScrolling: 'touch'}}>
         {Projects.map((Project) => (
                 <div key={Project.id}  className="flex-none w-full lg:w-[500px] md:w-1/2 flex flex-col justify-center items-center border border-gray-300 m-2">
                 <div className='mx-auto'>
