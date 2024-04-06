@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {Projects} from '../data/data'
 
-const ScrollList = ({ Project }) => {
+const ScrollList = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
 
     const scrollToLeft = () => {
