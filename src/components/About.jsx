@@ -9,8 +9,7 @@ const About = () => {
   }
 const downloadCv = () => {
   const link = document.createElement('a');
-  link.href = '../assets/elvis.pdf';
-  link.download = 'elvis.pdf';
+  link.href = 'https://docs.google.com/document/d/1l-HlNDZwES1tZYEKQnxfjcvX956ExqWHGKmK1UfvNSw';
   link.click();
 
 }

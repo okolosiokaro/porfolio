@@ -6,6 +6,20 @@ import nike from '../assets/nike.png'
 
 
 const Projects = [
+    // {
+    //     title: 'Deka Farms',
+    //     description: 'Distributes food items and spices',
+    //     image: logistics,
+    //     link: 'https://logisticscompany.netlify.app/',
+    //     repo: 'https://www.github.com/okolosiokaro/logistics'
+    // },
+    // {
+    //     title: 'Zoges Agro and Trucking Ventures',
+    //     description: 'Farm produce transportation and delivery',
+    //     image: logistics,
+    //     link: 'https://logisticscompany.netlify.app/',
+    //     repo: 'https://www.github.com/okolosiokaro/logistics'
+    // },
     {
         title: 'Logistics Company Limited',
         description: 'just some text to describe the project briefly',

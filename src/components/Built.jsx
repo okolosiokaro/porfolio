@@ -12,7 +12,7 @@ const Built = () => {
             <AiFillProject  size={25} className='mt-1 '/>
             <h3 className=" font-bold mb-4 text-2xl">Projects</h3>
         </div>
-        <div className=''>
+        <div className='p-10 lg:p-20'>
         <ScrollList />
         </div>
         </div>
