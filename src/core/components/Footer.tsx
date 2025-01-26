@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../img/zfg.png";
-import { APP_LINKS, contacts } from "../systemConst";
-import { NavLink } from "react-router-dom";
+// import logo from "../../img/zfg.png";
+// import { APP_LINKS, contacts } from "../systemConst";
+// import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (

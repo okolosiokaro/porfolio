@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { APP_LINKS, contacts } from "../systemConst";
 import logo from "../../img/zfg.png";
 import { cx } from "../helpers";
@@ -7,7 +7,7 @@ import { cx } from "../helpers";
 const Navbar = () => {
   const [showSidenav, setSidenav] = useState(false);
   const [hideSocials, setHideSocials] = useState(false);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const sideNavRef = useRef<HTMLDivElement | null>(null);
   const navbarRef = useRef<HTMLDivElement | null>(null);
 

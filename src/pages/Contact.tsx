@@ -1,7 +1,7 @@
 import React from "react";
-import client from "../img/shakingclient.jpg";
+// import client from "../img/shakingclient.jpg";
 import { addMetaData } from "../core/seoHelpers";
-import { contacts } from "../core/systemConst";
+// import { contacts } from "../core/systemConst";
 
 const Contact = () => {
   return (
