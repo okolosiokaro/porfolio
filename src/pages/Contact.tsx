@@ -7,13 +7,13 @@ const Contact = () => {
   return (
     <>
       {addMetaData({
-        title: "Contact Us | Zorg Financial Group - Get in Touch",
+        title: "Contact | Elvis Okolosio - Get in Touch",
         description:
-          "Have questions about our financial services? Contact Zorg Financial Group today for assistance, and our team will be happy to help.",
+          "Elvis is a seasoned developer focused on frontend web development.",
         keywords:
-          "Zorg Financial Group contact, financial services, Canada, customer support, get in touch",
-        path: "contact",
+          "Web design and development",
         locale: "en_CA",
+        path: "contact",
       })}
 
       <section className="bg-contact flex h-[36vh] w-full">
