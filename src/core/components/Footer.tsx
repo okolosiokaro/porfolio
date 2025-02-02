@@ -1,5 +1,5 @@
 import React from "react";
-// import logo from "../../img/zfg.png";
+import logo from "../../img/elvis logo.png";
 // import { APP_LINKS, contacts } from "../systemConst";
 // import { NavLink } from "react-router-dom";
 
@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="border-t bg-white">
       <div className="mx-auto w-[90%] py-4">
           <div className="my-4">
-          <img src="/assets/images/maro.jpeg" alt="Elvis Okolosio" loading="lazy" className="mx-auto mb-5 h-12 w-12 rounded-full border-2 border-white bg-white"/>
+          <img src={logo} alt="Elvis Okolosio" loading="lazy" className="mx-auto mb-5 h-12 w-12 rounded-full border-2 border-white bg-white"/>
 
           <div className="flex w-full items-center justify-center gap-5 text-gray-500">
             <a href="mailto:okolosiokaro@gmail.com" className="font-semibold hover:text-black">

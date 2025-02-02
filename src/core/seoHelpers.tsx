@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import logo from "../img/zfg.png";
+import logo from "../img/elvis logo.png";
 
 interface MetaProps {
   title?: string;

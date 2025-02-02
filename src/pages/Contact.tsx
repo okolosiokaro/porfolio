@@ -16,7 +16,7 @@ const Contact = () => {
         path: "contact",
       })}
 
-      <section className="bg-contact flex h-[36vh] w-full">
+      <section className="bg-white flex h-[36vh] w-full">
         <div className="flex h-full w-full items-center justify-center bg-black bg-opacity-70 text-gray-50">
           <div className="mx-auto mt-[24vh] w-[90%] md:w-[70%] md:mt-[14vh]">
             <h1 className="md:2xl font-orbitron text-xl uppercase">Contact</h1>
@@ -33,9 +33,7 @@ const Contact = () => {
             </h1>
 
         <p className="mb-2">
-          Have an innovative project in mind? Looking to scale your business
-          with a top-notch web application or need expert advice on optimizing
-          your current system?
+          I'd love to hear from you. Whether you have a project in mind, a question, or just want to connect, feel free to reach out. Let's collaborate and build something amazing together. Drop me a message, and I'll get back to you as soon as possible.
         </p>
 
         <p className="mb-2">

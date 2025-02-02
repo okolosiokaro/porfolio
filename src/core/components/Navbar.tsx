@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { APP_LINKS, contacts } from "../systemConst";
-import logo from "../../img/zfg.png";
+import logo from "../../img/elvis logo.png";
 import { cx } from "../helpers";
 
 const Navbar = () => {
@@ -89,7 +89,7 @@ const Navbar = () => {
               <img
                 src={logo}
                 alt=""
-                className="inline-block h-[32px] w-[32px]"
+                className="inline-block h-[40px] w-[40px]"
                 loading="lazy"
               />
             </Link>

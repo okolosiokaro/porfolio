@@ -6,32 +6,32 @@
 
 @layer components {
   .bg-home {
-    background: url("./img/meeting2.jpg") no-repeat;
+    background: url("./img/elvishome.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
 
-  .bg-about {
+  /* .bg-about {
     background: url("./img/statline.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-  }
+  } */
 
-  .bg-contact {
+  /* .bg-contact {
     background: url("./img/shakingclient.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-  }
+  } */
 
-  .bg-contact-home {
+  /* .bg-contact-home {
     background: url("./img/homeinsurance.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-  }
+  } */
 }
 
 ::-webkit-scrollbar {

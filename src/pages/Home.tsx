@@ -3,27 +3,7 @@ import { Link } from "react-router-dom";
 import { addMetaData } from "../core/seoHelpers";
 
 const Home = () => {
-  // const services = [
-  //   {
-  //     name: "Wealth Management",
-  //     description:
-  //       "Our wealth management services help you achieve your financial goals with tailored investment strategies.",
-  //     path: "wealth-management",
-  //   },
-  //   {
-  //     name: "Retirement Planning",
-  //     description:
-  //       "Plan for a secure and comfortable retirement with our expert financial advice and solutions.",
-  //     path: "retirement-planning",
-  //   },
-  //   {
-  //     name: "Small Business Consulting",
-  //     description:
-  //       "Empowering small businesses with expert financial advice and strategies to achieve sustainable growth.",
-  //     path: "small-business-consulting",
-  //   },
-  // ];
-
+  
   return (
     <>
       {addMetaData({
@@ -36,17 +16,15 @@ const Home = () => {
         path: "home",
       })}
 
-      <section className="bg-home flex h-screen w-full">
+      <section className="bg-white md:bg-home flex h-screen w-full">
         <div className="flex w-full flex-col justify-center bg-black bg-opacity-70 p-0 text-gray-50 mt-20">
           <div className="mx-auto w-[90%] md:w-[70%]">
             <h1 className="border-l py-5 pl-5 font-orbitron text-2xl font-extrabold uppercase tracking-wide sm:pl-8 sm:text-3xl">
               Elvis Okolosio <br /> Frontend Developer 
             </h1>
 
-            <p className="mb-8 mt-5">
-              Zorg Financial Group offers expert financial solutions to help you
-              achieve your goals. From wealth management to small business
-              consulting, we have you covered.
+            <p className="mb-8 mt-5 md:w-[60%]">
+              Welcome to my portfolio. I'm a passionate Frontend Developer with a keen eye for creating engaging, responsive, and user-friendly web applications.
             </p>
 
             <Link
@@ -67,8 +45,7 @@ const Home = () => {
             </h5>
 
             <p className="">
-
-            A seasoned Software Engineer with extensive experience building robust, scalable, and innovative solutions across multiple domains. With expertise in JavaScript, TypeScript, React, Angular, Node.js, and .NET, I have consistently delivered high-quality software for top-tier legacy organisations and startups, including Stanbic IBTC Bank, ITab Solutions, and Campusrunz. My strong background in front and backend technologies enables me to take projects from concept to completion efficiently.
+              A Frontend Developer with experience in creating responsive and user-friendly web applications. With expertise in HTML, CSS, Javascript, and modern frameworks like React and Vue.js, I strive to bring intuitive digital experiences to life including Campusrunz and Deka Farms. My focus is on clean, efficient code, accessibility, and seamless user interaction. Explore my projects to see how I blend creativity with technology to solve real-world problems and craft digital solutions.
             </p>
           </div>
         </div>

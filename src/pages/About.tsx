@@ -15,7 +15,7 @@ const About = () => {
         path: "about",
       })}
 
-      <section className="bg-about flex h-[36vh] w-full">
+      <section className="bg-white flex h-[36vh] w-full">
         <div className="flex h-full w-full items-center justify-center bg-black bg-opacity-70 text-gray-50">
           <div className="mx-auto mt-[24vh] w-[90%] md:w-[70%] md:mt-[14vh]">
             <h1 className="font-orbitron text-xl uppercase md:text-2xl">
@@ -32,7 +32,7 @@ const About = () => {
               Okolosio Oghenekaro Elvis
             </h1>
             <p className="mb-10">
-          A seasoned Software Engineer with extensive experience building robust, scalable, and innovative solutions across multiple domains. With expertise in JavaScript, TypeScript, React, Angular, Node.js, and .NET, I have consistently delivered high-quality software for top-tier legacy organisations and startups, including Stanbic IBTC Bank, ITab Solutions, and Campusrunz. My strong background in front and backend technologies enables me to take projects from concept to completion efficiently.
+            A Frontend Developer with experience in creating responsive and user-friendly web applications. With expertise in HTML, CSS, Javascript, and modern frameworks like React and Vue.js, I strive to bring intuitive digital experiences to life including Campusrunz and Deka Farms. My focus is on clean, efficient code, accessibility, and seamless user interaction. Explore my projects to see how I blend creativity with technology to solve real-world problems and craft digital solutions.
             </p>
 
             <div>

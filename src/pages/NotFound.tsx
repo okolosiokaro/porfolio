@@ -6,17 +6,18 @@ const NotFound = () => {
   return (
     <>
       {addMetaData({
-        title: "Page Not Found | Zorg Financial Group",
+        title: "Page not found | Elvis Okolosio",
         description:
-          "The page you are looking for might have been moved, removed, or is temporarily unavailable. Visit Zorg Financial Group's homepage to continue exploring.",
-        keywords: "Zorg Financial Group 404 page, page not found, error page",
-        path: "404",
+          "Elvis is a seasoned developer focused on frontend web development.",
+        keywords:
+          "Web design and development",
         locale: "en_CA",
+        path: "404",
       })}
 
       <section className="bg-silos flex h-[36vh] w-full">
         <div className="flex h-full w-full items-center justify-center bg-black bg-opacity-70 text-gray-50">
-          <div className="mx-auto mt-[14vh] w-[90%] md:mt-[10vh]">
+          <div className="mx-auto mt-[24vh] w-[90%] md:w-[70%] md:mt-[14vh]">
             <h1 className="font-orbitron text-3xl uppercase leading-none">
               404 Page Not Found
             </h1>
@@ -77,7 +78,7 @@ const NotFound = () => {
             </p>
 
             <Link
-              to="/contact"
+              to="/contacts"
               className="inline-block rounded-md w-full items-center justify-center gap-2 bg-primary px-[26px] py-[10px] font-mont text-[14px] uppercase !opacity-100 transition duration-300 ease-in-out hover:bg-dark disabled:cursor-not-allowed sm:w-2/3 md:flex lg:w-1/3"
             >
               Contact Us
