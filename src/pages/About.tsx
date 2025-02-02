@@ -1,5 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
+import deka from "../img/dekaFarms.png";
+import campus from "../img/campusrunzLogo.svg";
 import { addMetaData } from "../core/seoHelpers";
 
 const About = () => {
@@ -97,7 +99,7 @@ const About = () => {
                 <p className="text-md mb-1 font-medium">Nov 2023</p>
                 <div className="text-md mb-5 flex w-full justify-between">
                  <a href="https://campusrunz.com/" target="_blank" className="flex items-center gap-2 font-semibold italic underline" rel="noopener noreferrer">
-                 <img src="/assets/images/campusrunzLogo.svg" alt="CampusRunz" className="h-[24px] w-auto" loading="lazy" />
+                 <img src={campus} alt="CampusRunz" className="h-[24px] w-auto" loading="lazy" />
                   <p>CampusRunz</p>
                   </a>
                   <p className="font-medium">Remote - Lagos, Nigeria</p>
@@ -148,7 +150,7 @@ const About = () => {
                 <p className="text-md mb-1 font-medium">Nov 2024</p>
                 <div className="text-md mb-5 flex w-full justify-between">
                   <a href="https://dekafarms.com/" target="_blank" className="flex items-center gap-2 font-semibold italic underline" rel="noopener noreferrer">
-                    <img src="/assets/images/campusrunzLogo.svg" alt="Deka Farms" className="h-[24px] w-auto" loading="lazy" />
+                    <img src={deka} alt="Deka Farms" className="h-[24px] w-auto" loading="lazy" />
                     <p>Deka Farms</p>
                   </a>
                   <p className="font-medium">Remote - Lagos, Nigeria</p>
