@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="h-auto w-full bg-white lg:h-[70vh]">
+      <section className="h-auto w-full bg-white">
         <div className="mx-auto flex h-full w-[90%] md:w-[70%] flex-col items-center py-20">
           <div className="w-full">
             <h5 className="mb-3 text-lg uppercase text-primary">
