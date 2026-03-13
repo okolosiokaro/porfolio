@@ -15,8 +15,8 @@ const Contact = () => {
         path: "contact",
       })}
 
-      <section className="flex h-[36vh] w-full bg-white">
-        <div className="flex h-full w-full items-center justify-center bg-black bg-opacity-70 text-gray-50">
+      <section className="bg-home flex h-[36vh] w-full">
+        <div className="flex h-full w-full items-center justify-center bg-black bg-opacity-60 text-gray-50">
           <div className="mx-auto mt-[24vh] w-[90%] md:mt-[14vh] md:w-[70%]">
             <h1 className="md:2xl font-orbitron text-xl uppercase">Contact</h1>
           </div>

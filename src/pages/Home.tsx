@@ -14,8 +14,8 @@ const Home = () => {
         path: "home",
       })}
 
-      <section className="md:bg-home flex h-screen w-full bg-white">
-        <div className="mt-20 flex w-full flex-col justify-center bg-black bg-opacity-70 p-0 text-gray-50">
+      <section className="md:bg-home bg-home flex h-screen w-full">
+        <div className="mt-20 flex w-full flex-col justify-center bg-black bg-opacity-55 p-0 text-gray-50">
           <div className="mx-auto w-[90%] md:w-[70%]">
             <h1 className="font-orbitron border-l py-5 pl-5 text-2xl font-extrabold uppercase tracking-wide sm:pl-8 sm:text-3xl">
               Elvis Okolosio <br /> Frontend Developer
