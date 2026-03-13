@@ -9,15 +9,14 @@ const NotFound = () => {
         title: "Page not found | Elvis Okolosio",
         description:
           "Elvis is a seasoned developer focused on frontend web development.",
-        keywords:
-          "Web design and development",
+        keywords: "Web design and development",
         locale: "en_CA",
         path: "404",
       })}
 
       <section className="bg-silos flex h-[36vh] w-full">
         <div className="flex h-full w-full items-center justify-center bg-black bg-opacity-70 text-gray-50">
-          <div className="mx-auto mt-[24vh] w-[90%] md:w-[70%] md:mt-[14vh]">
+          <div className="mx-auto mt-[24vh] w-[90%] md:mt-[14vh] md:w-[70%]">
             <h1 className="font-orbitron text-3xl uppercase leading-none">
               404 Page Not Found
             </h1>
@@ -40,7 +39,7 @@ const NotFound = () => {
                 Return to the homepage
               </Link>
 
-              <Link to="/about" className="hover:text-dark hover:underline">
+              {/* <Link to="/about" className="hover:text-dark hover:underline">
                 <span className="iconify mr-2 mdi--menu-right"></span>
                 Learn more about us and our financial solutions
               </Link>
@@ -59,13 +58,13 @@ const NotFound = () => {
               >
                 <span className="iconify mr-2 mdi--menu-right"></span>
                 Explore our educational resources and tools
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
       </section>
 
-      <section className="bg-hero flex h-[60vh] w-full justify-end">
+      {/* <section className="bg-hero flex h-[60vh] w-full justify-end">
         <div className="flex w-full flex-col justify-center bg-black bg-opacity-70 p-0 text-white md:w-1/2 md:p-10">
           <div className="mx-auto w-[90%] text-center md:text-start">
             <h1 className="py-5 font-orbitron text-3xl font-extrabold uppercase tracking-wide sm:text-4xl">
@@ -85,7 +84,7 @@ const NotFound = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
