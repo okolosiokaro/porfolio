@@ -106,21 +106,21 @@ const Navbar = () => {
                   }}
                   className={({ isActive }) =>
                     isActive
-                      ? "text-dark hover:text-dark hidden !font-orbitron font-semibold uppercase lg:block"
-                      : "hover:text-dark hidden !font-orbitron uppercase text-black lg:block"
+                      ? "!font-orbitron hidden font-semibold uppercase text-dark hover:text-dark lg:block"
+                      : "!font-orbitron hidden uppercase text-black hover:text-dark lg:block"
                   }
                 >
                   {link?.name}
                 </NavLink>
               ))}
               <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://docs.google.com/document/d/1ngoRughMrVMXNXd5apI7BmmEIuRjBVuEmkZ9AP2wAJA/edit?usp=sharing"
-            className="inline-flex items-center gap-2 rounded bg-blue-200 px-2 py-1 text-xs font-medium text-black hover:bg-blue-300"
-          >
-            <span>RESUME</span>
-          </a>
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://1drv.ms/w/c/fe448a0d994bc404/IQB7YxdjgZtUTZ5lRfSDYRTnARcEICcYujRcWOh_vf6lIMg?e=OfRtiK"
+                className="inline-flex items-center gap-2 rounded bg-blue-200 px-2 py-1 text-xs font-medium text-black hover:bg-blue-300"
+              >
+                <span>RESUME</span>
+              </a>
 
               {showSidenav ? (
                 <div className="block bg-white hover:cursor-pointer lg:hidden">
@@ -160,8 +160,8 @@ const Navbar = () => {
                 }}
                 className={({ isActive }) =>
                   isActive
-                    ? "mb-5 !font-orbitron uppercase text-primary hover:text-dark"
-                    : "mb-5 !font-orbitron uppercase hover:text-dark"
+                    ? "!font-orbitron mb-5 uppercase text-primary hover:text-dark"
+                    : "!font-orbitron mb-5 uppercase hover:text-dark"
                 }
               >
                 <p>{link.name}</p>
