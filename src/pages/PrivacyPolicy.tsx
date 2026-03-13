@@ -6,11 +6,11 @@ const PrivacyPolicy = () => {
   return (
     <>
       {addMetaData({
-        title: "Privacy Policy | Zorg Financial Group - Your Privacy Matters",
+        title: "Privacy Policy | Elvis Okolosio - Your Privacy Matters",
         description:
-          "Learn how Zorg Financial Group collects, uses, and protects your information. We are committed to ensuring your privacy and maintaining transparency in our data practices.",
+          "Learn how Elvis Okolosio collects, uses, and protects your information. We are committed to ensuring your privacy and maintaining transparency in our data practices.",
         keywords:
-          "Zorg Financial Group privacy policy, data protection, user privacy, financial privacy practices",
+          "Elvis Okolosio privacy policy, data protection, user privacy, financial privacy practices",
         locale: "en_CA",
         path: "privacy-policy",
       })}
@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
       <section className="bg-contact flex h-[36vh] w-full">
         <div className="flex h-full w-full items-center justify-center bg-black bg-opacity-70 text-gray-50">
           <div className="mx-auto mt-[14vh] w-[90%] md:mt-[10vh]">
-            <h1 className="font-orbitron text-xl md:text-2xl uppercase leading-none">
+            <h1 className="font-orbitron text-xl uppercase leading-none md:text-2xl">
               Privacy Policy
             </h1>
             <br />
@@ -35,10 +35,10 @@ const PrivacyPolicy = () => {
             <h5 className="mb-3 font-bold text-black">Introduction</h5>
 
             <p>
-              At Zorg Financial Group, we value your trust and are committed to
-              protecting your personal information. This Privacy Policy outlines
-              how we collect, use, and safeguard your data in compliance with
-              applicable privacy laws and regulations.
+              We value your trust and are committed to protecting your personal
+              information. This Privacy Policy outlines how we collect, use, and
+              safeguard your data in compliance with applicable privacy laws and
+              regulations.
             </p>
           </div>
 
@@ -77,9 +77,7 @@ const PrivacyPolicy = () => {
               The information we collect is used for the following purposes:
             </p>
             <ul className="list-inside list-disc space-y-2">
-              <li>
-                To provide and improve our financial products and services.
-              </li>
+              <li>To provide and improve our services.</li>
               <li>
                 To process your applications, transactions, and inquiries.
               </li>
@@ -87,10 +85,7 @@ const PrivacyPolicy = () => {
                 To communicate important updates, promotional offers, and
                 relevant content.
               </li>
-              <li>
-                To ensure the security and functionality of our website and
-                financial systems.
-              </li>
+              <li>To ensure the security and functionality of our website.</li>
             </ul>
           </div>
 
@@ -121,9 +116,9 @@ const PrivacyPolicy = () => {
           <div className="mb-10">
             <h3 className="mb-3 font-bold text-black">Data Security</h3>
             <p>
-              Zorg Financial Group employs industry-standard security measures
-              to protect your information from unauthorized access, alteration,
-              or disclosure. While we strive to safeguard your data, no online
+              Elvis Okolosio employs industry-standard security measures to
+              protect your information from unauthorized access, alteration, or
+              disclosure. While we strive to safeguard your data, no online
               system is 100% secure, and we cannot guarantee absolute security.
             </p>
           </div>
@@ -161,27 +156,27 @@ const PrivacyPolicy = () => {
             </p>
             <div className="space-y-3">
               <a
-                href="tel:+14161234567"
+                href="tel:+2347050754245"
                 className="flex items-center space-x-2 hover:text-dark"
               >
                 <span className="iconify font-semibold text-primary mdi--phone"></span>
-                <span>+1-416-123-4567</span>
+                <span>+234-705-075-4245</span>
               </a>
               <a
-                href="mailto:privacy@zorgfinancial.ca"
+                href="mailto:okolosiokaro@gmail.com"
                 className="flex items-center space-x-2 hover:text-dark"
               >
                 <span className="iconify font-semibold text-primary mdi--email"></span>
-                <span>privacy@zorgfinancial.ca</span>
+                <span>okolosiokaro@gmail.com</span>
               </a>
               <a
-                href="https://www.google.com/maps?q=Zorg+Financial+Group,+Toronto,+Canada"
+                href="https://www.google.com/maps?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 hover:text-dark"
               >
                 <span className="iconify font-semibold text-primary mdi--location"></span>
-                <span>Zorg Financial Group, Toronto, Canada</span>
+                <span>Elvis Okolosio</span>
               </a>
             </div>
           </div>
