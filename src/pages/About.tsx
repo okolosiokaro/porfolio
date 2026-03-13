@@ -49,7 +49,7 @@ const About = () => {
                 <h3 className="mb-1 text-lg font-medium">
                   Lead Frontend Developer
                 </h3>
-                <p className="text-md font-medium">Dec 2025 - present</p>
+                <p className="text-md font-medium">Mar 2025 - present</p>
                 <div className="text-md mb-5 flex w-full justify-between">
                   <p className="font-semibold">UseWebEffects Agency</p>
                   <p className="font-medium">Lagos, Nigeria</p>
