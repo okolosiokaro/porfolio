@@ -2,6 +2,9 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import deka from "../img/dekaFarms.png";
 import campus from "../img/campusrunzLogo.svg";
+import busbuzzer from "../img/busbuzzer.png";
+import prism from "../img/prism.png";
+import tems from "../img/tems.png";
 import { addMetaData } from "../core/seoHelpers";
 
 const About = () => {
@@ -295,34 +298,33 @@ const About = () => {
             <div>
               <h1 className="mb-3 uppercase text-primary">Projects</h1>
               <div className="mb-16">
-                <h3 className="mb-1 text-lg font-medium">Frontend Developer</h3>
-                <p className="text-md mb-1 font-medium">Nov 2023</p>
+                {/* <h3 className="mb-1 text-lg font-medium">Frontend Developer</h3>
+                <p className="text-md mb-1 font-medium">Nov 2023</p> */}
                 <div className="text-md mb-5 flex w-full justify-between">
                   <a
-                    href="https://campusrunz.com/"
+                    href="https://admin.busbuzzer.com"
                     target="_blank"
                     className="flex items-center gap-2 font-semibold italic underline"
                     rel="noopener noreferrer"
                   >
                     <img
-                      src={campus}
-                      alt="CampusRunz"
+                      src={busbuzzer}
+                      alt="busbuzzer"
                       className="h-[24px] w-auto"
                       loading="lazy"
                     />
-                    <p>CampusRunz</p>
+                    <p>Busbuzzer Admin</p>
                   </a>
-                  <p className="font-medium">Remote - Lagos, Nigeria</p>
+                  {/* <p className="font-medium">Remote - Lagos, Nigeria</p> */}
                 </div>
 
                 <p className="mb-5">
-                  Campusrunz is a platform designed to simplify student life by
-                  offering convenient, affordable services such as
-                  transportation, accommodation, laundry, groceries, and a
-                  vibrant marketplace.
+                  Admin panel for a school transport platform. Built with
+                  Next.js with real-time geolocation tracking and route
+                  optimization, in collaboration with design and backend teams.
                 </p>
 
-                <div className="mb-5">
+                {/* <div className="mb-5">
                   <div className="pl-5">
                     <p className="mb-1">
                       <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
@@ -355,40 +357,40 @@ const About = () => {
                       feature development and seamless scalability.
                     </p>
                   </div>
-                </div>
+                </div> */}
 
                 <p className="text-md text-xs font-semibold italic">
                   React, Typescript, TailwindCSS
                 </p>
               </div>
               <div className="mb-16">
-                <h3 className="mb-1 text-lg font-medium">Frontend Developer</h3>
-                <p className="text-md mb-1 font-medium">Nov 2024</p>
+                {/* <h3 className="mb-1 text-lg font-medium">Frontend Developer</h3>
+                <p className="text-md mb-1 font-medium">Nov 2024</p> */}
                 <div className="text-md mb-5 flex w-full justify-between">
                   <a
-                    href="https://dekafarms.com/"
+                    href="http://useprism.co/"
                     target="_blank"
                     className="flex items-center gap-2 font-semibold italic underline"
                     rel="noopener noreferrer"
                   >
                     <img
-                      src={deka}
-                      alt="Deka Farms"
+                      src={prism}
+                      alt="prism"
                       className="h-[24px] w-auto"
                       loading="lazy"
                     />
-                    <p>Deka Farms</p>
+                    <p>Prism</p>
                   </a>
-                  <p className="font-medium">Remote - Lagos, Nigeria</p>
+                  {/* <p className="font-medium">Remote - Lagos, Nigeria</p> */}
                 </div>
 
                 <p className="mb-5">
-                  Deka Farms is a website designed for an agriculural firm,
-                  showcasing services, food crops, and livestock to attract and
-                  engage potential customers effectively.
+                  Fraud reporting platform enabling users to file detailed
+                  reports with business information, supporting documents, and
+                  access to law enforcement and consumer protection resources.
                 </p>
 
-                <div className="mb-5">
+                {/* <div className="mb-5">
                   <div className="pl-5">
                     <p className="mb-1">
                       <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
@@ -424,7 +426,213 @@ const About = () => {
                       standards for a wider audience reach.
                     </p>
                   </div>
+                </div> */}
+
+                <p className="text-md text-xs font-semibold italic">
+                  React, Typescript, TailwindCSS
+                </p>
+              </div>
+              <div className="mb-16">
+                {/* <h3 className="mb-1 text-lg font-medium">Frontend Developer</h3>
+                <p className="text-md mb-1 font-medium">Nov 2024</p> */}
+                <div className="text-md mb-5 flex w-full justify-between">
+                  <a
+                    href="https://temsfashion.usewebeffects.tech/"
+                    target="_blank"
+                    className="flex items-center gap-2 font-semibold italic underline"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={tems}
+                      alt="tems"
+                      className="h-[24px] w-auto"
+                      loading="lazy"
+                    />
+                    <p>Tems Fashion</p>
+                  </a>
+                  {/* <p className="font-medium">Remote - Lagos, Nigeria</p> */}
                 </div>
+
+                <p className="mb-5">
+                  Tems Fashion is an online store for a fashion brand. The
+                  website is a full ecommerce online store which display
+                  clothes, with a shopping cart to store selected items and
+                  payment options at checkout.
+                </p>
+
+                {/* <div className="mb-5">
+                  <div className="pl-5">
+                    <p className="mb-1">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Designed and built a fully responsive and user-friendly
+                      website layout to enhance customer engagement across
+                      devices.
+                    </p>
+                    <p className="mb-1">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Collaborated closely with stakeholders to understand
+                      business goals and translate them into a visually
+                      appealing web experience.
+                    </p>
+                    <p>
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Implemented modern UI/UX design principles using React,
+                      Typescript, and TailwindCSS for seamless navigation and
+                      accessibility.
+                    </p>
+                    <p>
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Optimized website performance to enhance fast loading
+                      times and a smooth user experience.
+                    </p>
+                    <p>
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Integrated reusable components for scalability and easier
+                      future updates.
+                    </p>
+                    <p>
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Ensured cross-browser compatibility and adherence to web
+                      standards for a wider audience reach.
+                    </p>
+                  </div>
+                </div> */}
+
+                <p className="text-md text-xs font-semibold italic">
+                  React, Typescript, TailwindCSS
+                </p>
+              </div>
+              <div className="mb-16">
+                {/* <h3 className="mb-1 text-lg font-medium">Frontend Developer</h3>
+                <p className="text-md mb-1 font-medium">Nov 2023</p> */}
+                <div className="text-md mb-5 flex w-full justify-between">
+                  <a
+                    href="https://campusrunz.com/"
+                    target="_blank"
+                    className="flex items-center gap-2 font-semibold italic underline"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={campus}
+                      alt="CampusRunz"
+                      className="h-[24px] w-auto"
+                      loading="lazy"
+                    />
+                    <p>CampusRunz</p>
+                  </a>
+                  {/* <p className="font-medium">Remote - Lagos, Nigeria</p> */}
+                </div>
+
+                <p className="mb-5">
+                  Campusrunz is a platform designed to simplify student life by
+                  offering convenient, affordable services such as
+                  transportation, accommodation, laundry, groceries, and a
+                  vibrant marketplace.
+                </p>
+
+                {/* <div className="mb-5">
+                  <div className="pl-5">
+                    <p className="mb-1">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Revamped the
+                      <a
+                        href="https://www.campusrunz.com"
+                        target="_blank"
+                        className="px-1 font-semibold italic underline"
+                        rel="noopener noreferrer"
+                      >
+                        business website
+                      </a>
+                      delivering a modern, user-friendly experience.
+                    </p>
+                    <p className="mb-1">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Designed a decoupled frontend architecture, improving
+                      performance with a 10+ second reduction in loading times
+                      through lazy loading and client-side caching.
+                    </p>
+                    <p className="mb-1">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Implemented state management using Zustand, ensuring
+                      enhanced data consistency, reduced API calls, and
+                      optimized frontend-backend communication.
+                    </p>
+                    <p>
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Improved modularity and maintainability, enabling faster
+                      feature development and seamless scalability.
+                    </p>
+                  </div>
+                </div> */}
+
+                <p className="text-md text-xs font-semibold italic">
+                  React, Typescript, TailwindCSS
+                </p>
+              </div>
+              <div className="mb-16">
+                {/* <h3 className="mb-1 text-lg font-medium">Frontend Developer</h3>
+                <p className="text-md mb-1 font-medium">Nov 2024</p> */}
+                <div className="text-md mb-5 flex w-full justify-between">
+                  <a
+                    href="https://dekafarms.com/"
+                    target="_blank"
+                    className="flex items-center gap-2 font-semibold italic underline"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={deka}
+                      alt="Deka Farms"
+                      className="h-[24px] w-auto"
+                      loading="lazy"
+                    />
+                    <p>Deka Farms</p>
+                  </a>
+                  {/* <p className="font-medium">Remote - Lagos, Nigeria</p> */}
+                </div>
+
+                <p className="mb-5">
+                  Deka Farm is a website designed for an agriculural firm,
+                  showcasing services, food crops, and livestock to attract and
+                  engage potential customers effectively.
+                </p>
+
+                {/* <div className="mb-5">
+                  <div className="pl-5">
+                    <p className="mb-1">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Designed and built a fully responsive and user-friendly
+                      website layout to enhance customer engagement across
+                      devices.
+                    </p>
+                    <p className="mb-1">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Collaborated closely with stakeholders to understand
+                      business goals and translate them into a visually
+                      appealing web experience.
+                    </p>
+                    <p>
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Implemented modern UI/UX design principles using React,
+                      Typescript, and TailwindCSS for seamless navigation and
+                      accessibility.
+                    </p>
+                    <p>
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Optimized website performance to enhance fast loading
+                      times and a smooth user experience.
+                    </p>
+                    <p>
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Integrated reusable components for scalability and easier
+                      future updates.
+                    </p>
+                    <p>
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Ensured cross-browser compatibility and adherence to web
+                      standards for a wider audience reach.
+                    </p>
+                  </div>
+                </div> */}
 
                 <p className="text-md text-xs font-semibold italic">
                   React, Typescript, TailwindCSS
