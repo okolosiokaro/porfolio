@@ -51,7 +51,14 @@ const About = () => {
                 </h3>
                 <p className="text-md font-medium">Mar 2025 - present</p>
                 <div className="text-md mb-5 flex w-full justify-between">
-                  <p className="font-semibold">UseWebEffects Agency</p>
+                  <p className="font-semibold">
+                    <a
+                      href="https://www.usewebeffects.tech"
+                      className="underline"
+                    >
+                      UseWebEffects Agency
+                    </a>
+                  </p>
                   <p className="font-medium">Lagos, Nigeria</p>
                 </div>
 
@@ -118,6 +125,170 @@ const About = () => {
                 <p className="text-md text-xs font-semibold italic">
                   React, Next.js, Vite.js, TypeScript, Tailwind CSS, Zustand,
                   React Query, System Design
+                </p>
+              </div>
+              <div className="mb-16">
+                <h3 className="mb-1 text-lg font-medium">Frontend Developer</h3>
+                <p className="text-md font-medium">May 2022 - Feb 2025</p>
+                <div className="text-md mb-5 flex w-full justify-between">
+                  <p className="font-semibold">
+                    <a href="https://www.campusrunz.com" className="underline">
+                      Campusrunz.com
+                    </a>
+                  </p>
+                  <p className="font-medium">Lagos, Nigeria</p>
+                </div>
+
+                <p className="mb-5">
+                  Student services marketplace offering transportation,
+                  accommodation, laundry, groceries, and campus delivery.
+                </p>
+
+                <div className="mb-5">
+                  <div className="pl-5">
+                    <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Led the frontend team in a full revamp of the admin portal
+                      and{" "}
+                      <a
+                        href="https://campusrunz.com"
+                        className="font-semibold italic underline"
+                      >
+                        business website
+                      </a>
+                      , delivering a modern, performant experience.
+                    </p>
+                    <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Designed a decoupled frontend architecture with lazy
+                      loading and client-side caching, cutting page load times
+                      by 10+ seconds.
+                    </p>
+                    <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Implemented Zustand for state management, reducing
+                      redundant API calls, and improving data consistency across
+                      the platform.
+                    </p>
+                    <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Improved modularity and maintainability, enabling faster
+                      feature development and seamless scalability across
+                      multiple apps.
+                    </p>
+                    {/* <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Lead client discovery sessions and translate business
+                      requirements directly into high-converting UI/UX
+                      solutions.
+                    </p>
+                    <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Provided ongoing technical support, including debugging,
+                      troubleshooting, and feature enhancements, maintaining
+                      strong client relationships.
+                    </p> */}
+
+                    <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Built three companion applications:
+                      <a
+                        href="https://onefinancemanager.com/"
+                        className="px-1 font-semibold italic underline"
+                      >
+                        One Finance Manager
+                      </a>{" "}
+                      (account management portal),
+                      <a
+                        href="https://veloceety.com/"
+                        className="px-1 font-semibold italic underline"
+                      >
+                        Veloceety
+                      </a>{" "}
+                      (PWA for delivery agents),
+                      <a
+                        href="https://app.campusrunz.com"
+                        className="px-1 font-semibold italic underline"
+                      >
+                        Campusrunz PWA
+                      </a>{" "}
+                      (web replica of the mobile app).
+                    </p>
+                  </div>
+                </div>
+
+                <p className="text-md text-xs font-semibold italic">
+                  React, TypeScript, Tailwind CSS, Zustand, AWS
+                </p>
+              </div>
+              <div className="mb-16">
+                <h3 className="mb-1 text-lg font-medium">Frontend Developer</h3>
+                <p className="text-md font-medium">Jan 2021 - March 2022</p>
+                <div className="text-md mb-5 flex w-full justify-between">
+                  <p className="font-semibold">Matrix Web Agency</p>
+                  <p className="font-medium">Lagos, Nigeria</p>
+                </div>
+
+                {/* <p className="mb-5">
+                  Full-service e-commerce web agency. Lead developers across all
+                  client engagements, from architecture through to delivery.
+                </p> */}
+
+                <div className="mb-5">
+                  <div className="pl-5">
+                    <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Designed and built fully responsive, accessible websites
+                      for clients using React, Bootstrap, Tailwind CSS.
+                    </p>
+                    <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Applied modern UI/UX principles to improve navigation,
+                      visual hierarchy, and cross-browser compatibility.
+                    </p>
+                    <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Optimized frontend performance through code splitting,
+                      lazy loading, and reusable component architecture.
+                    </p>
+                    <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Collaborated with stakeholders to translate brand goals
+                      into polished, engaging web experiences.
+                    </p>
+                    {/* <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Lead client discovery sessions and translate business
+                      requirements directly into high-converting UI/UX
+                      solutions.
+                    </p>
+                    <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Provided ongoing technical support, including debugging,
+                      troubleshooting, and feature enhancements, maintaining
+                      strong client relationships.
+                    </p> */}
+
+                    {/* <p className="mb-3">
+                      <span className="mr-1 inline-block h-[8px] w-[8px] bg-primary hover:bg-dark"></span>
+                      Notable project -
+                      <a
+                        href="https://temsfashion.usewebeffects.tech/"
+                        className="px-1 font-semibold italic underline"
+                      >
+                        Tems Fashion:
+                      </a>{" "}
+                      Led end-to-end frontend development for a full clothing
+                      e-commerce platform, integrating a .NET (C#) backend API
+                      with storefront, cart, and checkout flows built in Vite.js
+                      and React.
+                    </p> */}
+                  </div>
+                </div>
+
+                <p className="text-md text-xs font-semibold italic">
+                  JavaScript, Node.js, React, TypeScript, Tailwind CSS,
+                  Bootstrap
                 </p>
               </div>
             </div>
